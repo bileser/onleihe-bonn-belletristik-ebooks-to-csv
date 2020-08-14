@@ -1,0 +1,27 @@
+
+.right-col,
+.left-col,
+#header-image,
+#header-box-right,
+#static-nav,
+#footer,
+.media-item .score .item-2 { display:none; }
+
+.media-item .score .item-3,
+.media-item .score .hidden { display:block; }
+
+
+#header, #main, .main-box, #wrapper,
+.header-top-nav { background: none; }
+.header-top-nav #header-area { padding-left:0; }
+
+#main { font-size: 98%;  margin-left: 0em; }
+
+#main, #wrapper, .main-box { min-width:100%;  }
+
+.content-wrapper { margin: 0;}
+
+.content {float:none; clear:both; width:100%; height:100%; padding:0; }
+.inside-box {/*float:none;  clear:both;*/ }
+
+.inside-box  { page-break-inside:avoid; page-break-before:auto; }

@@ -1,0 +1,99 @@
+@import url(default_settings_8295.css);
+
+
+/* defaultLogo statt Bibliotheks Logo */
+html body header .header-bg #header-banner-nav #library-link svg { display: block; }
+html body header .header-bg #header-banner-nav #library-link object { display: none; }
+
+/* icons statt pfeile */
+html body header .svg-icon.ic_arrow { display:block; }
+html body .svg-icon.icon-symbol { display:none; }
+
+/* backgrounds */
+html body header .header-bg, html body .pagebox .pagebox-item article.account-overview .library-info .cover { background-color: #e8bfc0; }
+html body .pagebox footer { background: #e5e5e5; }
+html body .pagebox footer #footer-nav-left { background: #e5e5e5; }
+html body .pagebox footer #footer-nav-left .dropdown-content { border: 1px solid #e5e5e5; }
+html body .pagebox footer #footer-nav-right { background: #e5e5e5; }
+
+/* svgs */
+html body .svg-icon { fill: #b42a2f; }
+html body .pagebox .pagebox-item main svg.active { fill: #b42a2f; }
+html body .pagebox .pagebox-item main .star-rating .rate:hover span svg { fill: #b42a2f; }
+html body .pagebox .pagebox-item main .star-rating .rate svg.active { fill: #b42a2f; }
+html body header .header-bg #header-banner-nav #library-link svg { fill: #F78285; }
+
+/* main color */  
+html body a:hover { color: #b42a2f; }
+html body a:hover, html body a:focus { color: #b42a2f; }
+html body .filter-nav form[name=filter-form] .category-drilldown li[role=treeitem].active,
+html body .filter-nav form[name=filter-form] .category-drilldown li[role=menuitem].active,
+html body .filter-nav form[name=filter-form] .category-drilldown .js-drilldown-back.active {
+    background-color: #b42a2f;
+    color: #FFF;
+}
+html body .login form .l-row .item-2 input {
+    background: #b42a2f;
+    border: 1px solid #b42a2f;
+}
+html body .button .prime,
+html body .button .apply {
+    background-color: #b42a2f;
+    border: 1px solid #b42a2f;
+}
+html body .button a.watchlist { color: #b42a2f; }
+html body .button .link { color: #b42a2f; }
+html body .button .lend { background-color: #b42a2f }
+html body header .simple-searchCont #simple-search input.button:hover { color: #b42a2f; }
+html body header #static-nav ul li .active { color: #b42a2f; }
+html body header .header-menu-left-Con #header-menu-left .dropdown-content ul li a:hover { border-color: #b42a2f; }
+html body header #breadcrumb-nav a:hover { color: #b42a2f; }
+html body .pagebox .pagebox-item main h3 a:hover { color: #b42a2f; }
+html body .pagebox .pagebox-item main #category-nav a.active,
+html body .pagebox .pagebox-item main #category-nav a:hover { color: #b42a2f; }
+html body .pagebox .pagebox-item main .on-off-switch .on-off-switch-checkbox:checked+.on-off-switch-label .on-off-switch-switch {
+    background-color: #b42a2f;
+}
+html body .pagebox .pagebox-item main .tabs>input[type=radio]+label { color: #b42a2f; }
+html body .pagebox .pagebox-item main .rating .toggle-box label.close,
+html body .pagebox .pagebox-item main .rating .toggle-box label.open.button { background: #b42a2f; }
+html body .pagebox .pagebox-item main .edit-reserve .toggle-box label.close,
+html body .pagebox .pagebox-item main .edit-reserve .toggle-box label.open.button { background: #b42a2f; }
+
+html body .pagebox .pagebox-item .gallery ul .gallery-item .author a:hover,
+html body .pagebox .pagebox-item .gallery ul .gallery-item .title-name a:hover,
+html body .pagebox .pagebox-item .gallery ul .gallery-item .l-row a:hover,
+html body .pagebox .pagebox-item .gallery ul .gallery-item .serial a:hover { color: #b42a2f; }
+html body .pagebox .pagebox-item article.account-overview nav a { color: #b42a2f; }
+html body .pagebox .pagebox-item nav#page-nav ul,
+html body .pagebox .pagebox-item nav#page-nav li { color: #b42a2f; }
+html body .pagebox .pagebox-item nav#page-nav li a:hover { color: #b42a2f; }
+
+/* hover */
+html body .login form .l-row .item-2 input:hover {
+    background-color: #F78285;
+    border: 1px solid #F78285;
+}
+html body .button .prime:hover,
+html body .button .apply:hover {
+    background-color: #F78285;
+    border: 1px solid #F78285;
+    color: #fff;
+}
+html body .pagebox .pagebox-item main .edit-reserve .toggle-box label.close:hover,
+html body .pagebox .pagebox-item main .edit-reserve .toggle-box label.open.button:hover { background-color: #F78285; }
+html body .pagebox footer #footer-nav-left li a:hover,html body .pagebox footer #footer-nav-left li a { color: #59585A; }
+
+/* sonstiges */
+
+html body #footer-nav-left .dropdown {
+    width: 235px;
+}
+html body header .header-bg #header-banner-nav #library-link svg {
+    fill: #000;
+    width: 250px;
+}
+html body header .header-bg #header-banner-nav #onleihe-link object {
+    height: 100%;
+    padding: 0 0 20px 0;
+}
