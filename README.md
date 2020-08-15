@@ -4,6 +4,8 @@ Small but complete Clojure learing project. Reads [6.600 Belletristik-Ebooks fro
 
 The biggest portion of work was to find the right HTML parsing library. I found [Hickory](https://github.com/davidsantiago/hickory) to be the easiest to use. There are good selectors for the hickory format the library parses HTML into. In the end the parsing is done with quite few and nicely organized code.
 
+When I first looked at Clojure code it looked messy and chaotic. But now I can see the order and with indenting and the density of Clojure I can produce highly readable compact functions.
+
 ## Usage
 
 Run with Leiningen:
